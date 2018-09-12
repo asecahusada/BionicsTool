@@ -16,6 +16,8 @@ namespace BionixTool
         {
             CreateWebHostBuilder(args).Build().Run();
             //Added a new line in VS 2017
+            // New line BXT-127 asecahusada
+            // New line added directly into BIONIX_ENHANCEMENTS asecahusada
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
