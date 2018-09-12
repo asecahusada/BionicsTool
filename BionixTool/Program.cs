@@ -15,6 +15,7 @@ namespace BionixTool
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            // BXT-128 asecahusada
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
