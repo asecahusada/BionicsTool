@@ -17,6 +17,7 @@ namespace BionixTool
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            // New line added directly into BIONIX_ENHANCEMENTS asecahusada #1
         }
 
         public IConfiguration Configuration { get; }
